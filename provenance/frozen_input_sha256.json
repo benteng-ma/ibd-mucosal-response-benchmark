@@ -1,0 +1,9 @@
+{
+  "metadata/evaluation_grid.csv": "060d1cb861f988b5f8547e1fb1ac3b539102dda7a292ef1eafbe39ceb068951f",
+  "metadata/task_manifest.csv": "9cf6467c930bcdc00eb904833ba21d0055ddf4397bde9566e88bbb53a3ff2336",
+  "metadata/data_lineage_matrix.csv": "dff24f8fb4b56dc96e87d18b93da3867a099fc7d9f43f610d003a74c565c457f",
+  "metadata/endpoint_dictionary.csv": "3d4d5ef16a441b43ca55cc714e45df6dbb7fdbbffebdaccf1f35a1b5f3514514",
+  "metadata/endpoint_mapping.csv": "1ae62cbf0660627c916b3ddffc0d346f11330be3af8cef3b1b9ce15bb2dff498",
+  "literature/signature_inventory.csv": "a4a04b24d59583245b9dd7992fd6b47835328f06c471f81fa9826a9eb82583bf",
+  "literature/signature_gene_table.csv": "02b08f6cc19f0de3f9e909e3ea164d3add8856a4dc14536ea16dcbe6a29715e0"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "phase1_v1",
+  "n_frozen_executable_grid_cells": 46,
+  "n_executed_cells": 46,
+  "n_skipped_actual_coverage": 0,
+  "n_strict_external_cells": 3,
+  "n_cross_therapy_stress_cells": 29,
+  "transport_classifications": {
+    "SUPPORTED_DIRECTION": 19,
+    "UNCERTAIN_OR_NONTRANSPORTABLE": 27
+  },
+  "model_fitting": false,
+  "feature_selection": false,
+  "cross_cohort_merging": false,
+  "calibrated_probability_claim": false
+}

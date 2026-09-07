@@ -1,0 +1,6 @@
+﻿signature_id,missing_element,priority,status,next_source,notes
+CLASSIC_UCA_UCB_6PANELS,Full six legacy panels and source-table directions not yet recovered from the publisher supplement,HIGH,OPEN_NOT_MAIN_GRID,publisher supplement or public code,No heatmap-based transcription permitted
+SIG_MIN6,"Exact transformation, directions and cut points not available in the accessible abstract/full metadata",HIGH,OPEN_NOT_MAIN_GRID,publisher supplement or public code,No heatmap-based transcription permitted
+SIG_VDZ_21GENE,Complete 21-gene list and directions require the original supplementary table,MEDIUM,OPEN_NOT_MAIN_GRID,publisher supplement or public code,No heatmap-based transcription permitted
+SIG_GIMATS,Original cell-state gene table and weighting require code/supplement extraction,MEDIUM,OPEN_NOT_MAIN_GRID,publisher supplement or public code,No heatmap-based transcription permitted
+BIOSTOP_BASELINE,No successful baseline signature and no public sample-level data; retain as negative evidence,LOW,OPEN_NOT_MAIN_GRID,publisher supplement or public code,No heatmap-based transcription permitted

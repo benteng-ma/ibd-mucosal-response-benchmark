@@ -1,0 +1,8 @@
+{
+  "observed_spearman_rho": 0.28462725726045557,
+  "bootstrap_replicates_requested": 5000,
+  "bootstrap_replicates_valid": 5000,
+  "bootstrap_ci_lower": -0.14905223816160237,
+  "bootstrap_ci_upper": 0.6091339689072524,
+  "interpretation": "descriptive two-way program/task bootstrap; cells are dependent"
+}

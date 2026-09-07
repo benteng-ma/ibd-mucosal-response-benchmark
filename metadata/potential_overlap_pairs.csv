@@ -1,0 +1,5 @@
+﻿dataset_a,dataset_b,relationship_class,evidence,interpretation,phase0_action
+GSE112366_UNITI2_ILEUM,GSE207465_UNITI2_BLOOD,POSSIBLE_OVERLAP_UNKNOWN,same trial; blood IDs remapped,UNITI-2 blood and ileum records cannot be linked publicly,NOT_INDEPENDENT_TRIAL
+GSE207022_UNITI2_RECTUM,GSE207465_UNITI2_BLOOD,POSSIBLE_OVERLAP_UNKNOWN,same trial; blood IDs remapped,UNITI-2 blood and rectum records cannot be linked publicly,NOT_INDEPENDENT_TRIAL
+GSE73661_IFX,GSE73661_VDZ,INDEPENDENT_WITHIN_ACCESSION,different clinical cohorts and therapies,Same accession is not one patient pool,COUNT_AS_TWO_COHORTS
+GSE73661_IFX,GSE16879_UC_CD,POSSIBLE_OVERLAP_UNKNOWN,same institution; incompatible public IDs/platforms,Potential historical Leuven biobank reuse cannot be excluded,SENSITIVITY_FLAG

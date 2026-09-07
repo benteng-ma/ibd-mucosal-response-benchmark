@@ -1,0 +1,50 @@
+[
+  {
+    "accession": "GSE92415",
+    "local_file": "data/raw/geo_metadata/GSE92415_family.soft.gz",
+    "bytes": 68096715,
+    "sha256": "dd1bd02db0403121818ce0163522b2e7a266c52676d4cda3af39fa5785fa15cb",
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92415",
+    "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92415/soft/GSE92415_family.soft.gz"
+  },
+  {
+    "accession": "GSE212849",
+    "local_file": "data/raw/geo_metadata/GSE212849_family.soft.gz",
+    "bytes": 51100957,
+    "sha256": "37b502f77433906b3a81865b40c881275bc4ff1e7807ce91aa2e74922dae2520",
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212849",
+    "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE212nnn/GSE212849/soft/GSE212849_family.soft.gz"
+  },
+  {
+    "accession": "GSE112366",
+    "local_file": "data/raw/geo_metadata/GSE112366_family.soft.gz",
+    "bytes": 134499985,
+    "sha256": "df039f4802d02311c66d4085f9cef1e1636794911147317267ccefa7caca5fac",
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112366",
+    "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112366/soft/GSE112366_family.soft.gz"
+  },
+  {
+    "accession": "GSE206285",
+    "local_file": "data/raw/geo_metadata/GSE206285_family.soft.gz",
+    "bytes": 191586944,
+    "sha256": "c9d021c4f46f97f2100d8757b68138352b671a3bec04825d17295f1f412d105a",
+    "record_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206285",
+    "download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE206nnn/GSE206285/soft/GSE206285_family.soft.gz"
+  },
+  {
+    "accession": "E-MTAB-7604",
+    "local_file": "data/raw/representative_expression/E-MTAB-7604.processed.1.zip",
+    "bytes": 8623548,
+    "sha256": "6ac894deebc3ae9f53785483690e2e070a0b9a39990e7df20ac22720068cd969",
+    "record_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7604",
+    "download_url": null
+  },
+  {
+    "accession": "E-MTAB-7604",
+    "local_file": "data/raw/arrayexpress_metadata/E-MTAB-7604_E-MTAB-7604.sdrf.txt",
+    "bytes": 34888,
+    "sha256": "409fca920a405bd56a135cbfe2536577dd490f4d743f702de61f8b780b08083e",
+    "record_url": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-7604",
+    "download_url": null
+  }
+]

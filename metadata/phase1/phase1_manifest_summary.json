@@ -1,0 +1,65 @@
+{
+  "version": "phase1_v1",
+  "tasks": [
+    {
+      "task_id": "T_PURSUIT_CR_W6",
+      "dataset_id": "GSE92415_PURSUIT",
+      "trial_id": "TRIAL_PURSUIT_SC",
+      "n_subjects": 59,
+      "n_responder": 32,
+      "n_nonresponder": 27,
+      "n_excluded_repository_samples": 124,
+      "status": "EXECUTABLE"
+    },
+    {
+      "task_id": "T_PROGECT_MH_W6",
+      "dataset_id": "GSE212849_PROGECT",
+      "trial_id": "TRIAL_PROGECT",
+      "n_subjects": 84,
+      "n_responder": 21,
+      "n_nonresponder": 63,
+      "n_excluded_repository_samples": 0,
+      "status": "EXECUTABLE"
+    },
+    {
+      "task_id": "T_EMTAB7604_ER",
+      "dataset_id": "E-MTAB-7604_ATNF",
+      "trial_id": "COHORT_EMTAB7604",
+      "n_subjects": 43,
+      "n_responder": 18,
+      "n_nonresponder": 25,
+      "n_excluded_repository_samples": 1,
+      "status": "EXECUTABLE"
+    },
+    {
+      "task_id": "T_UNITI2_CR_W8",
+      "dataset_id": "GSE112366_UNITI2_ILEUM",
+      "trial_id": "TRIAL_UNITI2",
+      "n_subjects": 86,
+      "n_responder": 48,
+      "n_nonresponder": 38,
+      "n_excluded_repository_samples": 302,
+      "status": "EXECUTABLE"
+    },
+    {
+      "task_id": "T_UNIFI_MH_W8",
+      "dataset_id": "GSE206285_UNIFI",
+      "trial_id": "TRIAL_UNIFI",
+      "n_subjects": 358,
+      "n_responder": 56,
+      "n_nonresponder": 302,
+      "n_excluded_repository_samples": 210,
+      "status": "EXECUTABLE"
+    },
+    {
+      "task_id": "T_UNIFI_REM_W8",
+      "dataset_id": "GSE206285_UNIFI",
+      "trial_id": "TRIAL_UNIFI",
+      "n_subjects": 364,
+      "n_responder": 49,
+      "n_nonresponder": 315,
+      "n_excluded_repository_samples": 204,
+      "status": "EXECUTABLE"
+    }
+  ]
+}

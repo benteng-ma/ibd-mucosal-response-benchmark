@@ -1,0 +1,62 @@
+phase: 1
+authorization_date: "2026-08-31"
+source_freeze_commit: "e30bd8f60446c0a61744a3be529de3ed6d135cbc"
+analysis_branch: "phase1-benchmark"
+analysis_unit: "subject"
+independence_unit: "clinical trial or patient cohort"
+max_workers: 4
+random_seed: 20260831
+
+expression_policy:
+  process_each_dataset_separately: true
+  cross_cohort_merge: false
+  combat_or_batch_correction: false
+  repository_normalized_microarray_values: true
+  microarray_probe_to_gene: "median across all directly annotated probes per gene"
+  rnaseq_normalization: "log2 counts-per-million plus 0.5, within dataset only"
+  gene_standardization: "within-dataset z score using all eligible baseline active samples without outcome labels; population SD denominator n"
+  missing_gene_imputation: false
+  minimum_gene_coverage: 0.80
+
+score_policy:
+  score_orientation: "higher score means predicted responder"
+  directional_program: "mean of signed within-dataset gene z scores; R_HIGH=+1, NR_HIGH=-1"
+  coefficient_program: "L1-normalized published coefficients multiplied by within-dataset gene z scores"
+  probability_claim_allowed: false
+  original_calibration_claim_allowed: false
+  threshold_tuning_allowed: false
+
+evaluation_order:
+  - "SAME_THERAPY_SAME_ENDPOINT_EXTERNAL"
+  - "WITHIN_THERAPY_ENDPOINT_OR_DISEASE_TRANSPORT"
+  - "CROSS_THERAPY_TRANSPORT_STRESS_TEST"
+
+primary_inference:
+  estimand: "subject-level AUROC"
+  null_value: 0.50
+  permutation_replicates: 10000
+  bootstrap_replicates: 2000
+  confidence_level: 0.95
+  multiplicity_family: "strict same-therapy same-endpoint external cells only"
+  multiplicity_method: "Holm"
+
+secondary_reporting:
+  metrics:
+    - "average precision"
+    - "prevalence-normalized average precision"
+    - "rank-biserial separation"
+  bootstrap_replicates: 1000
+  p_values: false
+  report_negative_transportability: true
+  transport_classification:
+    supported_direction: "AUROC 95% bootstrap interval lower bound greater than 0.50"
+    reversed_direction: "AUROC 95% bootstrap interval upper bound less than 0.50"
+    uncertain_or_nontransportable: "AUROC 95% bootstrap interval includes 0.50"
+
+hard_exclusions:
+  - "related lineage or original-study reuse"
+  - "blood, PBMC, or sorted-cell task in primary bulk-mucosa grid"
+  - "post-treatment-only predictor sample"
+  - "sample-level outcome mapping unavailable"
+  - "either outcome arm below 15 for primary inference"
+  - "signature gene coverage below 80 percent"

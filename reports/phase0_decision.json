@@ -1,0 +1,25 @@
+{
+  "decision": "GO_CROSS_THERAPY_ENDPOINT_BENCHMARK",
+  "project_title": "IBD treatment-response program transportability benchmark",
+  "audit_cutoff": "2026-08-31",
+  "evidence_summary": {
+    "dataset_records": 22,
+    "independent_trial_or_cohort_units": 18,
+    "conservative_unique_public_baseline_subjects": 836,
+    "nominal_unique_public_baseline_subjects": 859,
+    "reconstructable_main_grid_signatures": 9,
+    "signature_source_papers": 9,
+    "independent_transportability_opportunities": 54,
+    "independent_trials_in_transportability_grid": 6,
+    "same_therapy_same_endpoint_external_opportunities": 3,
+    "endpoint_families_in_primary_tasks": 4
+  },
+  "met_criteria": ["therapy_classes", "independent_trials_or_cohorts", "unique_baseline_subjects", "arm_size_in_each_major_therapy", "reconstructable_signatures", "signature_papers", "signature_therapy_classes", "independent_external_opportunities", "endpoint_families", "same_therapy_same_endpoint_external", "cross_therapy_transport", "lineage_resolved_for_known_duplicates", "no_cross_cohort_merging_required"],
+  "unmet_criteria": [],
+  "decision_reason": "All pre-specified feasibility gates pass. The executable unit is trial/cohort, not accession or sample; known reuploads and same-trial tissues are blocked from independent validation.",
+  "recommended_scope": "Phase 1 may evaluate frozen published mucosal signatures without feature selection, first in independent same-therapy/same-endpoint tasks and then as explicitly labelled endpoint-, disease- and cross-therapy transport stress tests.",
+  "prohibited_claims": ["No pan-biologic universal biomarker claim", "No mechanistic or causal claim from predictive transportability", "No claim that same-trial or reuploaded accessions are external validation", "No claim that relapse after withdrawal equals induction response", "No pooled mega-cohort claim based on cross-study batch correction"],
+  "highest_justified_evidence": "Feasibility and design validity for an external transportability benchmark; no predictive performance evidence was generated in Phase 0.",
+  "unresolved_high_risks": ["Possible unresolved overlap between the GSE73661 infliximab comparator and older Leuven biobanks", "E-MTAB-7845 has public raw FASTQ but no repository-processed matrix", "Several RNA-seq platforms require a versioned Ensembl-to-symbol crosswalk", "Three exact same-therapy/same-endpoint external opportunities come from two trials; broader transport conclusions require explicit axis labels", "BIOSTOP has no public sample-level expression/outcome mapping at cutoff"],
+  "next_phase": "Prepare but do not execute the locked Phase 1 prompt in reports/phase1_master_prompt.md."
+}

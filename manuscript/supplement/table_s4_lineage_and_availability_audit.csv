@@ -1,0 +1,7 @@
+sensitivity_id,risk,conservative_action,executed_cells_affected,conclusion
+SENS_LEUVEN_POSSIBLE_OVERLAP,GSE73661 infliximab comparator may overlap older Leuven biobanks,exclude GSE73661 IFX from independent primary/transport execution,0,Numerical Phase 1 results invariant because arm threshold and lineage flags already excluded this cohort
+SENS_ACT1_REUPLOAD,GSE12251 and GSE23597 contain exact reuploaded ACT1 baseline files,block all related signature-task cells from external validation,0,No ACT1 reupload appears in the executed external grid
+SENS_LEUVEN_SUBSET,GSE14580 is a complete subset of GSE16879,count as one cohort and block related signature-task cells,0,No subset split appears in the executed external grid
+SENS_UNITI_TRIAL_FAMILY,"GSE112366, GSE207022 and GSE207465 are one UNITI-2 trial family",block same-family UST signatures and count the trial once,0,UNITI-2 is used only for signatures independent of UNITI-2 lineage
+SENS_EMTAB7604_MISSING_FILE,one of 44 SDRF subjects lacks a processed public count file,complete-case expression availability without imputation,8,"E-MTAB-7604 analysis uses 43 subjects (18 responder, 25 nonresponder); missing subject is documented"
+SENS_EMTAB7845_RAW_ONLY,E-MTAB-7845 has public raw FASTQ but no repository-processed matrix,do not create a non-comparable ad hoc processed cohort in this benchmark version,8,8 frozen transport cells remain not executed and are not counted as negative results

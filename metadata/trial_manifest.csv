@@ -1,0 +1,19 @@
+﻿trial_id,trial_name,trial_registration,dataset_ids,independence_unit,registration_verified,notes
+TRIAL_ACT1,ACT1,NCT00036439,GSE12251_ACT1_MH;GSE23597_ACT1,ONE_TRIAL_ONE_PATIENT_POOL,True,GSE12251 is an exact baseline-file subset/reupload of GSE23597
+COHORT_LEUVEN_ARJIS,Leuven infliximab mucosal cohort,NCT00639821,GSE14580_UC;GSE16879_UC_CD,ONE_COHORT_ONE_PATIENT_POOL,True,GSE14580 is an exact accession subset of GSE16879
+COHORT_GSE73661_IFX,Leuven infliximab comparator,not reported,GSE73661_IFX,INDEPENDENT_COHORT,True,Possible overlap with older Leuven biobank remains unresolved
+TRIAL_GEMINI,GEMINI I / LTS,NCT00783718;NCT00790933,GSE73661_VDZ,ONE_TRIAL_FAMILY,True,Longitudinal repeated subjects
+TRIAL_PURSUIT_SC,PURSUIT-SC,NCT00487539,GSE92415_PURSUIT,INDEPENDENT_TRIAL,True,Do not confuse with PROgECT registration
+TRIAL_PROGECT,PROgECT,NCT01988961,GSE212849_PROGECT,INDEPENDENT_TRIAL,True,Prospective signature evaluation
+COHORT_EMTAB7604,Leuven prospective anti-TNF cohort,not reported,E-MTAB-7604_ATNF,INDEPENDENT_COHORT,True,44 deposited mucosal subjects
+COHORT_EMTAB7845,Leuven/Barcelona vedolizumab cohorts,not reported,E-MTAB-7845_VDZ,INDEPENDENT_COHORT,True,47 subjects; raw-only expression
+COHORT_GSE107865,Israeli anti-TNF blood cohort,not reported,GSE107865_IFX_BLOOD,INDEPENDENT_COHORT,True,Secondary blood compartment
+COHORT_GSE42296,PBMC infliximab cohort,not reported,GSE42296_IFX_PBMC,INDEPENDENT_COHORT,True,Secondary blood compartment
+COHORT_GSE52746,Barcelona Crohn anti-TNF cohort,not reported,GSE52746_IFX_POST,INDEPENDENT_COHORT_NOT_BASELINE_PREDICTION,True,Outcome-labelled samples are mainly post-treatment
+TRIAL_CERTIFI,CERTIFI,NCT00771667,GSE100833_CERTIFI,INDEPENDENT_TRIAL_OUTCOME_UNAVAILABLE,True,No sample-level outcome labels
+TRIAL_UNITI2,UNITI-2 / IM-UNITI,NCT01369329;NCT01369342,GSE112366_UNITI2_ILEUM;GSE207022_UNITI2_RECTUM;GSE207465_UNITI2_BLOOD,ONE_TRIAL_MULTIPLE_COMPARTMENTS,True,115 IDs directly overlap ileum and rectum accessions; blood IDs remapped
+TRIAL_UNIFI,UNIFI,NCT02407236,GSE206285_UNIFI,INDEPENDENT_TRIAL,True,Independent UC ustekinumab trial
+TRIAL_FUTURE,FUTURE,NCT03235752,GSE171770_FUTURE,INDEPENDENT_TRIAL,True,Repeated blood and mucosa from 16 subjects
+COHORT_GSE234736,Vedolizumab mucosal immune cohort,not reported,GSE234736_VDZ_TCELLS,INDEPENDENT_COHORT,True,96 sorted-cell libraries from 30 donors
+TRIAL_JP_VDZ,Japanese phase 4 vedolizumab transcriptomics,jRCTs011200009,GSE282580_VDZ,INDEPENDENT_TRIAL_OUTCOME_UNAVAILABLE,True,Only aggregate 5/5 outcome in paper
+TRIAL_BIOSTOP,BIOSTOP,EudraCT 2016-001409-18,BIOSTOP_JJAG121,INDEPENDENT_TRIAL_DATA_UNAVAILABLE,True,No public data accession located

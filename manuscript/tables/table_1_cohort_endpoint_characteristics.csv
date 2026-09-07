@@ -1,0 +1,7 @@
+Cohort/task,Accession,Therapy,Disease,Tissue,Assay/platform,Endpoint family,Time,N,Responders,Nonresponders,Notes
+PURSUIT-SC: week-6 clinical response,GSE92415,golimumab,UC,colon,microarray; GPL13158,INDUCTION_CLINICAL_RESPONSE,week 6,59,32,27,active golimumab only
+PROgECT: week-6 mucosal healing,GSE212849,golimumab,UC,colon,microarray; GPL570,MUCOSAL_HEALING,week 6,84,21,63,prospective MPS evaluation
+E-MTAB-7604: endoscopic remission,E-MTAB-7604,infliximab/adalimumab,IBD,colon/ileum,RNA-seq; Illumina HiSeq 4000,ENDOSCOPIC_REMISSION,week 10 UC / week 24 CD,43,18,25,One of 44 SDRF subjects lacked a public processed count file; complete-case N=43.
+UNITI-2: week-8 clinical response,GSE112366,ustekinumab,CD,ileum,microarray; GPL13158,INDUCTION_CLINICAL_RESPONSE,week 8,86,48,38,active treatment
+UNIFI: week-8 mucosal healing,GSE206285,ustekinumab,UC,sigmoid colon,microarray; GPL13158,MUCOSAL_HEALING,week 8,358,56,302,Endpoint-specific task; subjects overlap the other UNIFI endpoint task.
+UNIFI: week-8 clinical remission,GSE206285,ustekinumab,UC,sigmoid colon,microarray; GPL13158,INDUCTION_CLINICAL_REMISSION,week 8,364,49,315,Endpoint-specific task; subjects overlap the other UNIFI endpoint task.

@@ -1,0 +1,9 @@
+human_only: true
+sample_level_expression_required: true
+sample_id_mappable: true
+public_download_required: true
+primary_baseline_requires_individual_outcome: true
+private_clinical_table_allowed: false
+main_signature_requires_direction_or_coefficients: true
+heatmap_visual_extraction_allowed: false
+

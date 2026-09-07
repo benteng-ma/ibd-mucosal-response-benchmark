@@ -1,0 +1,4 @@
+Published program,Independent task,N (R/NR),AUROC,95% bootstrap CI,Average precision,Raw permutation P,Holm-adjusted P,Classification
+Arijs anti-TNF five-gene program,PROgECT: week-6 mucosal healing,84 (21/63),0.649,0.520-0.773,0.356,0.043,0.128,SUPPORTED_DIRECTION
+Anti-TNF seven-gene program,PURSUIT-SC: week-6 clinical response,59 (32/27),0.604,0.453-0.740,0.693,0.179,0.179,UNCERTAIN_OR_NONTRANSPORTABLE
+Cross-biologic UC four-gene program,PROgECT: week-6 mucosal healing,84 (21/63),0.650,0.521-0.766,0.329,0.043,0.128,SUPPORTED_DIRECTION

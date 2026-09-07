@@ -1,0 +1,5 @@
+source("R/audit_signature_reconstructability.R")
+source("R/audit_signature_coverage.R")
+x <- audit_signature_reconstructability()
+coverage <- audit_signature_coverage()
+stopifnot(sum(toupper(x$inventory$main_grid_eligible) == "TRUE") >= 8, nrow(coverage) > 0)

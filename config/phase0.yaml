@@ -1,0 +1,15 @@
+phase: 0
+audit_cutoff: "2026-08-31"
+project_root: "."
+outcome_analysis_allowed: false
+differential_expression_allowed: false
+signature_scoring_allowed: false
+performance_analysis_allowed: false
+model_training_allowed: false
+cross_cohort_combat_allowed: false
+max_workers: 4
+max_peak_memory_gb: 12
+download_fastq: false
+default_max_single_file_gb: 2
+minimum_free_disk_gb: 50
+

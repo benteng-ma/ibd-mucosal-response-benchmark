@@ -1,0 +1,26 @@
+﻿task_id,dataset_id,trial_id,drug,therapy_class,disease,sample_compartment,tissue_location,baseline_or_on_treatment,endpoint_family,endpoint_time,n_responder,n_nonresponder,independent_trial_count,primary_or_secondary,notes
+T_ACT1_MH_W8,GSE12251_ACT1_MH,TRIAL_ACT1,infliximab,ANTI_TNF_INFLIXIMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 8,12,10,1,secondary,exact sample subset of GSE23597
+T_ACT1_CR_W8,GSE23597_ACT1,TRIAL_ACT1,infliximab,ANTI_TNF_INFLIXIMAB,UC,mucosa,colon,baseline,INDUCTION_CLINICAL_RESPONSE,week 8,24,7,1,primary,unique active subjects; technical duplicate removed
+T_ACT1_CR_W30,GSE23597_ACT1,TRIAL_ACT1,infliximab,ANTI_TNF_INFLIXIMAB,UC,mucosa,colon,baseline,INDUCTION_CLINICAL_RESPONSE,week 30,22,9,1,secondary,longer induction/maintenance response; unique active subjects
+T_ARJIS_UC_MH,GSE16879_UC_CD,COHORT_LEUVEN_ARJIS,infliximab,ANTI_TNF_INFLIXIMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 4-6,8,16,1,primary,same UC subjects as GSE14580
+T_ARJIS_CDC_ER,GSE16879_UC_CD,COHORT_LEUVEN_ARJIS,infliximab,ANTI_TNF_INFLIXIMAB,CD,mucosa,colon,baseline,ENDOSCOPIC_RESPONSE,week 4-6,12,7,1,primary,colon-only CD stratum
+T_GSE73661_IFX_MH,GSE73661_IFX,COHORT_GSE73661_IFX,infliximab,ANTI_TNF_INFLIXIMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 4-6,8,15,1,primary,possible older Leuven biobank overlap unknown
+T_PURSUIT_CR_W6,GSE92415_PURSUIT,TRIAL_PURSUIT_SC,golimumab,ANTI_TNF_GOLIMUMAB,UC,mucosa,colon,baseline,INDUCTION_CLINICAL_RESPONSE,week 6,32,27,1,primary,active golimumab only
+T_PROGECT_MH_W6,GSE212849_PROGECT,TRIAL_PROGECT,golimumab,ANTI_TNF_GOLIMUMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 6,21,63,1,primary,prospective MPS evaluation
+T_PROGECT_REM_W6,GSE212849_PROGECT,TRIAL_PROGECT,golimumab,ANTI_TNF_GOLIMUMAB,UC,mucosa,colon,baseline,INDUCTION_CLINICAL_REMISSION,week 6,11,73,1,secondary,separate endpoint
+T_EMTAB7604_ER,E-MTAB-7604_ATNF,COHORT_EMTAB7604,infliximab/adalimumab,ANTI_TNF_MIXED,IBD,mucosa,colon/ileum,baseline,ENDOSCOPIC_REMISSION,week 10 UC / week 24 CD,19,25,1,primary,SDRF cannot identify UC vs CD per sample
+T_GEMINI_MH_W6,GSE73661_VDZ,TRIAL_GEMINI,vedolizumab,ANTI_INTEGRIN_VEDOLIZUMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 6,6,21,1,primary,27 subjects with matched endpoint
+T_GEMINI_MH_W12,GSE73661_VDZ,TRIAL_GEMINI,vedolizumab,ANTI_INTEGRIN_VEDOLIZUMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 12,3,10,1,secondary,13 subjects
+T_GEMINI_MH_W52,GSE73661_VDZ,TRIAL_GEMINI,vedolizumab,ANTI_INTEGRIN_VEDOLIZUMAB,UC,mucosa,colon,baseline,MUCOSAL_HEALING,week 52,13,6,1,secondary,19 subjects; attrition/maintenance selection
+T_EMTAB7845_ER,E-MTAB-7845_VDZ,COHORT_EMTAB7845,vedolizumab,ANTI_INTEGRIN_VEDOLIZUMAB,UC;CD,mucosa,colon,baseline,ENDOSCOPIC_REMISSION,week 14 UC / month 6 CD,24,23,1,primary,raw-only; all samples used by the four-gene signature paper
+T_GSE234736_RESPONSE,GSE234736_VDZ_TCELLS,COHORT_GSE234736,vedolizumab,ANTI_INTEGRIN_VEDOLIZUMAB,UC;CD,sorted mucosal T cells,intestine,baseline,INDUCTION_CLINICAL_RESPONSE,study-defined,12,10,1,secondary,23 pretreatment donors; one unknown; multiple libraries per donor
+T_UNITI2_CR_W8,GSE112366_UNITI2_ILEUM,TRIAL_UNITI2,ustekinumab,IL12_23_USTEKINUMAB,CD,mucosa,ileum,baseline,INDUCTION_CLINICAL_RESPONSE,week 8,48,38,1,primary,active treatment
+T_UNITI2_MH_W8,GSE207022_UNITI2_RECTUM,TRIAL_UNITI2,ustekinumab,IL12_23_USTEKINUMAB,CD,mucosa,rectum,baseline,MUCOSAL_HEALING,week 8,9,54,1,primary,same trial as ileal task; 15 active outcome NA
+T_UNITI2_BLOOD_REM,GSE207465_UNITI2_BLOOD,TRIAL_UNITI2,ustekinumab,IL12_23_USTEKINUMAB,CD,whole blood,blood,baseline,INDUCTION_CLINICAL_REMISSION,week 8,146,266,1,secondary,same trial; remapped IDs
+T_UNIFI_MH_W8,GSE206285_UNIFI,TRIAL_UNIFI,ustekinumab,IL12_23_USTEKINUMAB,UC,mucosa,sigmoid colon,baseline,MUCOSAL_HEALING,week 8,56,302,1,primary,six active outcome NA
+T_UNIFI_REM_W8,GSE206285_UNIFI,TRIAL_UNIFI,ustekinumab,IL12_23_USTEKINUMAB,UC,mucosa,sigmoid colon,baseline,INDUCTION_CLINICAL_REMISSION,week 8,49,315,1,primary,active treatment
+T_FUTURE_RESPONSE,GSE171770_FUTURE,TRIAL_FUTURE,olamkicept,IL6_TRANS_SIGNALING,UC;CD,mucosa,intestine,baseline,INDUCTION_CLINICAL_RESPONSE,week 12,7,9,1,secondary,below 15/15 threshold
+T_FUTURE_REMISSION,GSE171770_FUTURE,TRIAL_FUTURE,olamkicept,IL6_TRANS_SIGNALING,UC;CD,mucosa,intestine,baseline,INDUCTION_CLINICAL_REMISSION,week 12,3,13,1,secondary,below 15/15 threshold
+T_GSE107865_BLOOD,GSE107865_IFX_BLOOD,COHORT_GSE107865,infliximab,ANTI_TNF_INFLIXIMAB,CD,whole blood,blood,baseline,INDUCTION_CLINICAL_RESPONSE,week 14,17,5,1,secondary,blood and small NR arm
+T_BIOSTOP_WITHDRAWAL,BIOSTOP_JJAG121,TRIAL_BIOSTOP,anti-TNF withdrawal,ANTI_TNF_WITHDRAWAL,UC,mucosa,rectum,baseline,RELAPSE_AFTER_WITHDRAWAL,2 years,36,36,1,not executable,paper baseline analysis subset; no public sample-level data
+T_BIOSTOP_CONTINUED,BIOSTOP_JJAG121,TRIAL_BIOSTOP,continued anti-TNF,ANTI_TNF_WITHDRAWAL,UC,mucosa,rectum,baseline,FLARE_ON_CONTINUED_THERAPY,2 years,10,66,1,not executable,paper post-QC outcome totals; no public sample-level data

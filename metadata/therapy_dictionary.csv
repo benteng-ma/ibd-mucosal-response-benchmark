@@ -1,0 +1,11 @@
+﻿therapy_class,mechanism,drugs,phase0_rule
+ANTI_TNF_INFLIXIMAB,TNF blockade,infliximab,drug-specific primary; class-level sensitivity only
+ANTI_TNF_ADALIMUMAB,TNF blockade,adalimumab,drug-specific primary; class-level sensitivity only
+ANTI_TNF_GOLIMUMAB,TNF blockade,golimumab,drug-specific primary; class-level sensitivity only
+ANTI_INTEGRIN_VEDOLIZUMAB,alpha4beta7 integrin blockade,vedolizumab,mechanism-specific
+IL12_23_USTEKINUMAB,IL-12/23 p40 blockade,ustekinumab,mechanism-specific
+IL23_P19,IL-23 p19 blockade,risankizumab/guselkumab,no public sample-level baseline outcome cohort verified
+JAK_INHIBITOR,JAK inhibition,upadacitinib/tofacitinib,no public sample-level baseline outcome cohort verified
+S1P_MODULATOR,S1P modulation,ozanimod/etrasimod,no public sample-level baseline outcome cohort verified
+IL6_TRANS_SIGNALING,IL-6 trans-signaling blockade,olamkicept,single small FUTURE cohort
+OTHER,other advanced therapy,various,audit separately

@@ -1,0 +1,16 @@
+﻿endpoint_family,label,operational_definition,harmonization_guardrail
+INDUCTION_CLINICAL_RESPONSE,Induction clinical response,Instrument-specific improvement after treatment initiation,Do not combine Mayo and CDAI without disease strata
+INDUCTION_CLINICAL_REMISSION,Induction clinical remission,Instrument-specific remission after induction,Stricter than response
+ENDOSCOPIC_RESPONSE,Endoscopic response,Improvement in an endoscopic instrument,Not equivalent to remission
+ENDOSCOPIC_REMISSION,Endoscopic remission,Endoscopic remission threshold,UC and CD definitions remain stratified
+MUCOSAL_HEALING,Mucosal healing,Study-defined mucosal healing,May include endoscopic and/or histologic components
+HISTOLOGIC_RESPONSE,Histologic response,Improvement in histology,Instrument-specific
+HISTOLOGIC_REMISSION,Histologic remission,Histologic remission threshold,Do not merge with mucosal healing unless composite is exact
+BIOCHEMICAL_RESPONSE,Biochemical response,CRP/fecal-calprotectin improvement,Threshold-specific
+STEROID_FREE_CLINICAL_REMISSION,Steroid-free clinical remission,Clinical remission without steroids,Maintenance-oriented
+PRIMARY_NON_RESPONSE,Primary non-response,Failure of initial therapy,Complement of a specified induction endpoint only
+SECONDARY_LOSS_OF_RESPONSE,Secondary loss of response,Loss after initial response,Not primary response
+FLARE_ON_CONTINUED_THERAPY,Flare on continued therapy,Flare while treatment continues,BIOSTOP continuation arm
+RELAPSE_AFTER_WITHDRAWAL,Relapse after withdrawal,Relapse after stopping therapy,BIOSTOP withdrawal arm
+ON_TREATMENT_MOLECULAR_RESPONSE,On-treatment molecular response,Expression change after exposure,Not baseline prediction
+LONG_TERM_SURGERY_OR_TREATMENT_FAILURE,Long-term surgery/treatment failure,Long-term hard outcome,Separate time-to-event family

@@ -1,0 +1,103 @@
+phase: 3
+authorization_date: "2026-08-31"
+source_submission_commit: "66d31f95f8cbb7eafaaf0e32e7aac8132f049990"
+analysis_branch: "phase3-robustness"
+random_seed: 20260831
+status: "FROZEN_BEFORE_PHASE3_RESULT_INSPECTION"
+
+governance:
+  confirmatory_family_unchanged: true
+  strict_phase1_results_immutable: true
+  all_phase3_analyses_exploratory: true
+  no_new_feature_discovery: true
+  no_outcome_driven_cell_exclusion: true
+  no_threshold_optimization: true
+  no_cross_cohort_expression_merge: true
+  no_calibration_or_clinical_utility_claim: true
+  retain_null_and_destabilizing_results: true
+
+analysis_universe:
+  executed_cells: 46
+  programs: 9
+  endpoint_tasks: 6
+  subject_level_scores: "results/performance/phase1_v1/subject_level_scores.csv"
+  processed_expression: "data/processed/phase1_v1/*_signature_genes.csv"
+
+analyses:
+  score_scaling_robustness:
+    methods:
+      - "frozen population-z scaling"
+      - "median/MAD scaling with 1.4826 consistency factor; fixed IQR/1.349 then population-SD fallback when MAD is zero"
+      - "within-dataset centered percentile-rank scaling"
+    reporting: "cellwise AUROC agreement, direction concordance, and classification concordance"
+  subject_influence:
+    method: "leave-one-subject-out AUROC"
+    reporting: "cellwise minimum, maximum, and largest absolute change from the frozen AUROC"
+  gene_influence:
+    eligibility: "every executed cell for a program with at least two measured genes"
+    method: "leave-one-gene-out score reconstruction with remaining weights renormalized"
+    reporting: "all omitted-gene AUROCs, range, direction-retention fraction, and most influential gene"
+  orientation_randomization:
+    eligibility: "all executed cells"
+    method: "enumerate all sign assignments to the measured program genes while preserving absolute weights"
+    maximum_patterns_per_cell: 128
+    reporting: "published-orientation percentile within the complete same-gene orientation space; descriptive only"
+  bootstrap_direction_stability:
+    replicates: 2000
+    stratified_by_outcome: true
+    reporting: "probability that resampled AUROC exceeds 0.50; not a new hypothesis test"
+  context_alignment:
+    alignment_components:
+      - "same therapy"
+      - "same endpoint family"
+      - "same disease"
+    reporting:
+      - "AUROC distributions by 0-3 alignment score"
+      - "within-program same-therapy versus cross-therapy median AUROC"
+      - "two-way program/task bootstrap interval for Spearman alignment-AUROC association"
+    bootstrap_replicates: 5000
+    inference: "descriptive exploratory"
+  program_architecture:
+    reporting:
+      - "signed program-by-gene matrix"
+      - "pairwise gene Jaccard similarity"
+      - "directional agreement among shared genes"
+      - "task-specific and median cross-task subject-score correlations"
+      - "program performance-profile correlations across shared tasks"
+  unifi_endpoint_drift:
+    tasks:
+      - "T_UNIFI_MH_W8"
+      - "T_UNIFI_REM_W8"
+    reporting:
+      - "overlapping-subject endpoint contingency table"
+      - "raw agreement and Cohen kappa"
+      - "paired program AUROCs across the two endpoints"
+    inference: "descriptive; the endpoints share subjects and are not independent"
+  strict_visual_diagnostics:
+    preserve_phase1_permutation_replicates: 10000
+    reporting:
+      - "score distributions"
+      - "ROC curves"
+      - "frozen AUROC intervals"
+      - "empirical permutation-null distributions"
+
+figure_plan:
+  main_figures: 6
+  figure_1_panels: 4
+  figure_2_panels: 4
+  figure_3_panels: 4
+  figure_4_panels: 4
+  figure_5_panels: 4
+  figure_6_panels: 6
+  supplementary_figures: 4
+  panel_titles_inside_figures: false
+  panel_letters_required: true
+  raster_dpi: 300
+
+reporting_boundaries:
+  - "Phase 1 strict P values and Holm adjustment remain the only confirmatory tests."
+  - "Robustness concordance cannot convert an unconfirmed program into a validated biomarker."
+  - "Orientation randomization is a same-gene diagnostic, not a genome-wide biological null."
+  - "Dependent program-task cells are not counted as independent replications."
+  - "Endpoint discordance does not establish a mechanistic cause of transport failure."
+  - "No analysis supports treatment selection, calibration, decision benefit, or causal resistance."

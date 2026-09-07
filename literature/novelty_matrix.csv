@@ -1,0 +1,17 @@
+﻿paper_id,three_or_more_therapies,published_signature_inventory,formal_data_lineage_audit,endpoint_harmonization_audit,original_external_validation,same_and_cross_therapy_grid,leave_study_out,negative_transportability,exact_duplicate,overlap_summary
+P_ARJIS_UC,NO,PARTIAL,NO,NO,YES,NO,NO,NO,FALSE,signature source and reused cohorts
+P_OSM,NO,PARTIAL,NO,NO,YES,NO,NO,NO,FALSE,published program for audit
+P_GAUJOUX,NO,YES,NO,NO,YES,NO,NO,NO,FALSE,nearest anti-TNF signature audit but not cross-therapy
+P_SEVEN,NO,PARTIAL,NO,NO,NO,NO,YES,NO,FALSE,published signature inventory and lineage caution
+P_VDZ4,NO,PARTIAL,NO,NO,YES,NO,NO,PARTIAL,FALSE,signature source; consumes both main public VDZ cohorts
+P_MIN,NO,PARTIAL,NO,NO,YES,PARTIAL,NO,NO,FALSE,near-neighbor cross-therapy signature but not lineage/endpoint benchmark
+P_UST4,NO,PARTIAL,NO,NO,NO,NO,NO,NO,FALSE,published UST signature
+P_UST_HUB,NO,PARTIAL,NO,NO,NO,NO,NO,NO,FALSE,key same-trial pseudoreplication warning
+P_UST_MH2,NO,PARTIAL,NO,NO,YES,NO,NO,NO,FALSE,published UST signature
+P_UC4_CROSS,NO,PARTIAL,NO,NO,NO,NO,NO,NO,FALSE,cross-therapy near neighbor without systematic lineage/endpoint audit
+P_ANDO2026,NO,PARTIAL,NO,NO,YES,NO,NO,PARTIAL,FALSE,single-therapy near neighbor
+P_ANTI2026,NO,PARTIAL,NO,NO,YES,NO,YES,NO,FALSE,very close methodologically but single therapy and lineage error
+P_IL11_2026,NO,PARTIAL,NO,NO,NO,NO,NO,NO,FALSE,single-mechanism near neighbor; lineage contamination
+P_VDZ5_2026,NO,PARTIAL,NO,NO,YES,NO,YES,NO,FALSE,different compartment; no mucosal endpoint benchmark
+P_MULTI2026,YES,PARTIAL,NO,NO,YES,PARTIAL,NO,NO,FALSE,closest cross-therapy collision but lacks lineage/endpoint/signature benchmark
+P_BIOSTOP,NO,PARTIAL,NO,NO,NO,NO,NO,NO,FALSE,"distinct endpoint family, not induction response"

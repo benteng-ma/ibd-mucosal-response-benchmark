@@ -1,0 +1,13 @@
+classes:
+  - INDEPENDENT
+  - PARTIALLY_CONTAMINATED
+  - REUSED_DISCOVERY_DATA
+  - SAME_TRIAL_DIFFERENT_SUBSET
+  - SAME_SUBJECT_DIFFERENT_TISSUE
+  - SAME_SUBJECT_DIFFERENT_TIMEPOINT
+  - POSSIBLE_OVERLAP_UNKNOWN
+  - UNCLEAR
+primary_external_class: INDEPENDENT
+subject_is_unit_of_independence: true
+same_trial_not_independent: true
+

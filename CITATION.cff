@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, cite the specific archived software release."
+title: "IBD mucosal response benchmark: trial-aware evaluation of published programs"
+type: software
+authors:
+  - family-names: Ma
+    given-names: Benteng
+version: 1.0.0
+license: MIT

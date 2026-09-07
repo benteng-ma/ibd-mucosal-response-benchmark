@@ -1,0 +1,14 @@
+item,value
+Phase 0 source commit,e30bd8f60446c0a61744a3be529de3ed6d135cbc
+Phase 1 source commit,53e3fa2ee7788c1eed426778ea6bbd79ae9c269c
+python,"3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]"
+python_executable,python (workstation-specific executable path omitted from public export)
+platform,Windows-11-10.0.26200-SP0
+scikit_learn,1.8.0
+scipy,1.16.3
+phase1_benchmark_runtime_dependencies,Python standard library only
+validation_dependency,scikit-learn metrics
+Phase 1 random seed,20260831
+Strict bootstrap replicates,2000
+Strict permutation replicates,10000
+Descriptive bootstrap replicates,1000

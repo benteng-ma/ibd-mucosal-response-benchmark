@@ -1,0 +1,7 @@
+{
+  "n_signature_dataset_pairs": 242,
+  "n_directly_audited_pairs": 165,
+  "n_primary_coverage_pass_pairs": 145,
+  "coverage_threshold": 0.8,
+  "phase0_only": true
+}

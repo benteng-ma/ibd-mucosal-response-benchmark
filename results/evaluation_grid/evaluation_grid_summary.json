@@ -1,0 +1,11 @@
+{
+  "n_grid_rows": 275,
+  "n_primary_same_therapy_same_endpoint_external_opportunities": 3,
+  "n_transportability_opportunities": 54,
+  "n_cross_therapy_transport_opportunities": 35,
+  "n_independent_trials_in_primary_external_grid": 2,
+  "n_independent_trials_in_transportability_grid": 6,
+  "n_signatures_in_transportability_grid": 9,
+  "performance_computed": false,
+  "phase0_only": true
+}

@@ -1,0 +1,26 @@
+anti_tnf:
+  - GSE12251
+  - GSE14580
+  - GSE16879
+  - GSE23597
+  - GSE73661
+  - GSE92415
+  - GSE107865
+  - GSE42296
+vedolizumab:
+  - GSE73661
+  - E-MTAB-7845
+ustekinumab:
+  - GSE100833
+  - GSE112366
+  - GSE207022
+  - GSE207465
+  - GSE206285
+additional_search:
+  - risankizumab
+  - upadacitinib
+  - tofacitinib
+  - ozanimod
+  - olamkicept
+  - BIOSTOP
+

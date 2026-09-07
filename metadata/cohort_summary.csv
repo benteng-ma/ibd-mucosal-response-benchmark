@@ -1,0 +1,8 @@
+﻿metric,value,definition
+dataset_records_before_lineage_deduplication,22,"manifest rows, including subcohorts and non-executable records"
+independent_trials_or_cohorts_after_deduplication,18,trial_manifest independence units; includes unavailable/non-primary cohorts
+independent_public_executable_mucosal_cohorts,11,"patient-independent baseline mucosal cohorts with sample-level outcome, including small FUTURE and sorted-cell secondary cohort"
+unique_public_baseline_active_subjects_with_outcomes_nominal,859,"nominal union: ACT1 31 + Leuven Arijs 61 + GSE73661 IFX 23 + PURSUIT 59 + PROgECT 84 + E-MTAB-7604 44 + GEMINI 44 + E-MTAB-7845 47 + UNITI-2 active 86 + UNIFI active 364 + FUTURE 16; excludes blood-only, sorted-cell-only, placebo and unavailable outcomes"
+unique_public_baseline_active_subjects_with_outcomes_conservative_lower_bound,836,nominal 859 minus all 23 GSE73661 IFX subjects because possible overlap with the older Leuven biobank cannot be excluded from public identifiers
+main_reconstructable_directional_signatures,9,"finite, sourced, directional/weighted signatures eligible for future scoring"
+biostop_publicly_executable,0,no public accession plus sample-to-outcome mapping located by 2026-08-31

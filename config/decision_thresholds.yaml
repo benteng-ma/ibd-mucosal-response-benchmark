@@ -1,0 +1,21 @@
+go_cross_therapy_endpoint_benchmark:
+  minimum_therapy_classes: 3
+  minimum_independent_trials_or_cohorts: 6
+  minimum_therapy_classes_with_two_cohorts: 2
+  minimum_unique_baseline_subjects: 300
+  minimum_per_arm_per_primary_task: 15
+  minimum_reconstructable_signatures: 8
+  minimum_signature_papers: 5
+  minimum_signature_therapy_classes: 3
+  minimum_independent_external_transport_opportunities: 4
+  minimum_independent_trials_in_transportability_grid: 4
+  minimum_same_therapy_same_endpoint_external_opportunities: 1
+  minimum_usable_endpoint_families: 2
+conditional_go_two_therapies:
+  required_therapy_classes: 2
+  minimum_independent_cohorts_each: 2
+  minimum_reconstructable_signatures: 6
+  minimum_primary_independent_evaluations: 3
+no_go_data_lineage:
+  fewer_than_independent_cohorts: 4
+  fewer_than_independent_evaluations: 3

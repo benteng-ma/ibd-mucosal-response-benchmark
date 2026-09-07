@@ -1,0 +1,65 @@
+{
+  "version": "phase1_v1",
+  "datasets": [
+    {
+      "dataset_id": "GSE92415_PURSUIT",
+      "source_file": "data/raw/geo_metadata/GSE92415_family.soft.gz",
+      "source_sha256": "dd1bd02db0403121818ce0163522b2e7a266c52676d4cda3af39fa5785fa15cb",
+      "platform": "GPL13158",
+      "n_samples_extracted": 183,
+      "n_wanted_genes": 35,
+      "n_mapped_genes": 34,
+      "expression_file": "data/processed/phase1_v1/GSE92415_PURSUIT_signature_genes.csv",
+      "probe_collapse": "median",
+      "normalization": "repository-normalized values; no cross-cohort transformation"
+    },
+    {
+      "dataset_id": "GSE212849_PROGECT",
+      "source_file": "data/raw/geo_metadata/GSE212849_family.soft.gz",
+      "source_sha256": "37b502f77433906b3a81865b40c881275bc4ff1e7807ce91aa2e74922dae2520",
+      "platform": "GPL570",
+      "n_samples_extracted": 84,
+      "n_wanted_genes": 35,
+      "n_mapped_genes": 35,
+      "expression_file": "data/processed/phase1_v1/GSE212849_PROGECT_signature_genes.csv",
+      "probe_collapse": "median",
+      "normalization": "repository-normalized values; no cross-cohort transformation"
+    },
+    {
+      "dataset_id": "GSE112366_UNITI2_ILEUM",
+      "source_file": "data/raw/geo_metadata/GSE112366_family.soft.gz",
+      "source_sha256": "df039f4802d02311c66d4085f9cef1e1636794911147317267ccefa7caca5fac",
+      "platform": "GPL13158",
+      "n_samples_extracted": 388,
+      "n_wanted_genes": 35,
+      "n_mapped_genes": 34,
+      "expression_file": "data/processed/phase1_v1/GSE112366_UNITI2_ILEUM_signature_genes.csv",
+      "probe_collapse": "median",
+      "normalization": "repository-normalized values; no cross-cohort transformation"
+    },
+    {
+      "dataset_id": "GSE206285_UNIFI",
+      "source_file": "data/raw/geo_metadata/GSE206285_family.soft.gz",
+      "source_sha256": "c9d021c4f46f97f2100d8757b68138352b671a3bec04825d17295f1f412d105a",
+      "platform": "GPL13158",
+      "n_samples_extracted": 568,
+      "n_wanted_genes": 35,
+      "n_mapped_genes": 34,
+      "expression_file": "data/processed/phase1_v1/GSE206285_UNIFI_signature_genes.csv",
+      "probe_collapse": "median",
+      "normalization": "repository-normalized values; no cross-cohort transformation"
+    },
+    {
+      "dataset_id": "E-MTAB-7604_ATNF",
+      "source_file": "data/raw/representative_expression/E-MTAB-7604.processed.1.zip",
+      "source_sha256": "6ac894deebc3ae9f53785483690e2e070a0b9a39990e7df20ac22720068cd969",
+      "platform": "Illumina HiSeq 4000",
+      "n_samples_extracted": 43,
+      "n_wanted_genes": 35,
+      "n_mapped_genes": 35,
+      "expression_file": "data/processed/phase1_v1/E-MTAB-7604_ATNF_signature_genes.csv",
+      "probe_collapse": "not applicable; direct gene symbols",
+      "normalization": "within-sample log2(CPM + 0.5); no cross-cohort transformation"
+    }
+  ]
+}

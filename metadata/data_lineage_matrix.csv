@@ -1,0 +1,14 @@
+﻿dataset_a,dataset_b,relationship_class,evidence,interpretation,phase0_action
+GSE14580_UC,GSE16879_UC_CD,SAME_ACCESSION_SUBSET,30/30 GSM IDs shared,GSE14580 is exactly the UC plus control subset of GSE16879,COUNT_ONCE
+GSE12251_ACT1_MH,GSE23597_ACT1,SAME_BIOLOGICAL_SAMPLE_REUPLOAD,23/23 uncompressed CEL SHA256 hashes match; 22 subjects,Same ACT1 baseline biopsies with different endpoint labels,COUNT_ONCE_PER_SUBJECT;KEEP_ENDPOINTS_SEPARATE
+GSE112366_UNITI2_ILEUM,GSE207022_UNITI2_RECTUM,SAME_SUBJECT_DIFFERENT_TISSUE,115 public CNTO subject IDs shared,"Same UNITI-2 participants, ileum vs rectum, clinical response vs mucosal healing",NOT_INDEPENDENT
+GSE112366_UNITI2_ILEUM,GSE207465_UNITI2_BLOOD,POSSIBLE_OVERLAP_UNKNOWN,same trial; blood IDs remapped,UNITI-2 blood and ileum records cannot be linked publicly,NOT_INDEPENDENT_TRIAL
+GSE207022_UNITI2_RECTUM,GSE207465_UNITI2_BLOOD,POSSIBLE_OVERLAP_UNKNOWN,same trial; blood IDs remapped,UNITI-2 blood and rectum records cannot be linked publicly,NOT_INDEPENDENT_TRIAL
+GSE100833_CERTIFI,GSE112366_UNITI2_ILEUM,INDEPENDENT,different registered trials,CERTIFI versus UNITI-2,INDEPENDENT_TRIALS
+GSE206285_UNIFI,GSE112366_UNITI2_ILEUM,INDEPENDENT,different disease and registered trials,UNIFI UC versus UNITI-2 CD,INDEPENDENT_TRIALS
+GSE73661_IFX,GSE73661_VDZ,INDEPENDENT_WITHIN_ACCESSION,different clinical cohorts and therapies,Same accession is not one patient pool,COUNT_AS_TWO_COHORTS
+GSE73661_IFX,GSE16879_UC_CD,POSSIBLE_OVERLAP_UNKNOWN,same institution; incompatible public IDs/platforms,Potential historical Leuven biobank reuse cannot be excluded,SENSITIVITY_FLAG
+E-MTAB-7845_VDZ,GSE73661_VDZ,INDEPENDENT,different cohorts; GSE73661 was external validation,Both were used in the four-gene signature publication,INDEPENDENT_PATIENTS_BUT_REUSED_FOR_SIG_VDZ4
+GSE234736_VDZ_TCELLS,GSE234736_VDZ_TCELLS,SAME_SUBJECT_DIFFERENT_TIMEPOINT,96 libraries/30 donors; 23 pretreatment donors,Multiple sorted-cell libraries and pre/on-treatment samples,COLLAPSE_TO_DONOR
+GSE171770_FUTURE,GSE171770_FUTURE,SAME_SUBJECT_DIFFERENT_TISSUE,16 subjects with blood and biopsy longitudinal series,Repeated 0h-14w samples,COLLAPSE_TO_SUBJECT
+GSE52746_IFX_POST,GSE52746_IFX_POST,SAME_SUBJECT_DIFFERENT_TIMEPOINT,only a minority have public pre/post pairs,Outcome-labelled R/NR samples are post-treatment,EXCLUDE_BASELINE_PREDICTION
